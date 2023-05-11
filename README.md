@@ -1,2 +1,2 @@
 # Javascript
-  <title>Javascript</title>
+  <h1>Javascript</h1>

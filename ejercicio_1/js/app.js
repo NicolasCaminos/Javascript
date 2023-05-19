@@ -16,12 +16,14 @@ const ciudadDos = 'Albuquerque';
 const ciudadTres = 'New York';
 const ciudadCuatro = 'Córdoba';
 const ciudadCinco = 'Buenos aires';
-console.log(`Ejercicio2 `) //Ejercicio 2
-console.log(`${ciudadUno}`) //Springfield
-console.log(`${ciudadDos}`) //Albuquerque
-console.log(`${ciudadTres}`) //New York
-console.log(`${ciudadCuatro}`) //Córdoba
-console.log(`${ciudadCinco}`) //Buenos aires
+console.log(`Ejercicio2: ${ciudadUno},${ciudadDos}, ${ciudadTres}, ${ciudadCuatro}, ${ciudadCinco}.`) //Ejercicio 2: Springfield, Albuquerque, New York, Córdoba, Buenos aires.
+
+//segunda opción valida
+// console.log(`${ciudadUno}`) //Springfield
+// console.log(`${ciudadDos}`) //Albuquerque
+// console.log(`${ciudadTres}`) //New York
+// console.log(`${ciudadCuatro}`) //Córdoba
+// console.log(`${ciudadCinco}`) //Buenos aires
 
 //Actividad 3: Carnet
 
@@ -32,8 +34,11 @@ function Carnet() {
     genero = prompt('ingrese el genero: ');
     pais = prompt('ingrese el pais: ');
     direccion = prompt('ingrese el direccion: ');
+    //primera opción
     carnet = `Los datos del carnet ingresado son de: Nombre: ${nombre}, Apellido  ${apellido}, Genero: ${genero}, Ciudad: ${ciudadUno}, País:  ${pais}, Dirección: ${direccion} `;
     alert(carnet) //Ejercicio3:Los datos del carnet ingresado son de: Nombre: ${nombre}, Apellido  ${apellido}, Genero: ${genero}, Ciudad: Springfield, País:  ${pais}, Dirección: ${direccion}
+
+    //segunda opción
     console.log(`Ejercicio3:Los datos del carnet ingresado son de: Nombre: ${nombre}, Apellido  ${apellido}, Genero: ${genero}, Ciudad: ${ciudadUno}, País:  ${pais}, Dirección: ${direccion} `) // Ejercicio3:Los datos del carnet ingresado son de: Nombre: ${nombre}, Apellido  ${apellido}, Genero: ${genero}, Ciudad:Springfield, País:  ${pais}, Dirección: ${direccion}
 }
 Carnet() 
